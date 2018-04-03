@@ -201,10 +201,11 @@ p {
         text-decoration: none;
         text-align: center;
         font-size: 20px;
-        padding: 17px 0px;
+        padding: 1px 0px;
         float: left;  
         height: 53px;
         width: 12%;
+        line-height: 2.5em;
       }
       
     .about {
