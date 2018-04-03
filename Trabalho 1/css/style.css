@@ -85,7 +85,7 @@ h3 {
 }
 
 .content-first {
-    padding: 6em 4em 4em 0;
+    padding: 6em 9em 4em 0;
     width: 70%;
 }
 
@@ -251,5 +251,179 @@ p {
     .content-tertiary>p {
         text-align: center;
         width: 100%;
+    }
+
+}
+
+
+
+.banner{
+    padding: 9em 0 7em 0;
+    background-color: #423e3a;
+    background-image: url(https://pixelarity.com/items/demos/scalar/red/images/banner.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #cfcecd;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container>h4 {
+    font-size: 2.25em;
+    color: white;
+    line-height: 1.5em;
+    font-family: "Montserrat", Helvetica, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    margin: 0 0 1em 0.5em;
+    position: relative;
+    text-transform: uppercase;
+}
+
+
+.container>p {
+    color: white;
+    font-family: "Montserrat", Helvetica, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    margin: 0 0 2em 1em;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.container> h4 + p {
+    font-size: 1.25em;
+    margin-top: -0.5em;
+    line-height: 1.5em;
+}
+
+.buttonicon{
+    border-color: #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+    border: solid 2px #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Montserrat", Helvetica, sans-serif;
+    font-weight: 700;
+    margin: 0 0 1em 1.25em;
+    height: 3em;
+    height: calc(3em + 2px);
+    letter-spacing: 0.05em;
+    line-height: 3em;
+    padding: 0 1.55em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.buttonicon:hover{
+    background-color: rgba(255, 255, 255, 0.075)
+}
+
+
+.seta-direita:before {
+    content: "\f054";
+  }
+
+.icon {
+    position: relative;
+}
+
+.icon:before {
+    margin: 0 0 0 0.75em;
+    float: right;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none;
+}
+
+@media screen and (max-width: 1680px){
+
+    .container {
+        width: 1280px;
+    }
+}
+
+@media screen and (max-width: 480px){
+
+    .banner {
+        text-align: center;
+        padding: 5em 0 3em 0;
+    }
+}
+
+@media screen and (max-width: 736px){
+
+    .banner {
+        text-align: center;
+        padding: 4em 0 2em 0;
+    }
+}
+
+@media screen and (max-width: 980px){
+    .banner {
+        text-align: center;
+        padding: 8em 0 4em 0;
+    }
+}
+
+@media screen and (max-width: 1280px){
+    .banner {
+        padding: 6em 0 4em 0;
+    }
+}
+
+@media (max-width: 1280px){
+    .container{
+        text-align: center;
+        width: 90%;
+    }
+    .container>h2,
+    .container>p{
+        text-align: center;
+    }
+}
+
+@media (max-width: 980px){
+    .container{
+        text-align: center;
+        width: 90%;
+    }
+    .container>h2,
+    .container>p{
+        text-align: center;
+    }
+}
+
+@media (max-width: 736px){
+    .container{
+        text-align: center;
+        width: 90%;
+    }
+    .container>h2,
+    .container>p{
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px){
+    .buttonicon,.seta-direita:before{
+        content: "";
+        padding: 0 5em;
+    }
+}
+
+@media (max-width: 440px){
+    .buttonicon,.seta-direita:before{
+        content: "";
+        padding: 0 4em;
     }
 }
